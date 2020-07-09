@@ -1,0 +1,13 @@
+[mysql]
+dsn="root:password@tcp(9.134.74.245:3306)/go_service?charset=utf8"
+
+
+[http]
+port = 8080
+readTimeout = 100
+writeTimeout = 100
+
+
+[log]
+level="info"
+outputFile="./log/service.log"
